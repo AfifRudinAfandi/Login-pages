@@ -1,6 +1,10 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+body{
+  max-width: 420px;
+  margin: auto;
+}
 /* <======LOGIN======> */
 section.top-nev {
   display: flex;
@@ -41,7 +45,7 @@ section.login-form-section .caption-login {
   margin-bottom: 0;
 }
 .login-form {
-  margin-top: 8vh;
+  margin-top: 6vh;
 }
 .login-form .form-group {
   position: relative;
@@ -103,7 +107,6 @@ footer.footer {
   align-items: center;
 }
 footer.footer .copy-right {
-  max-width: 170px;
   margin-bottom: 2vh;
   font-style: normal;
   font-weight: normal;
@@ -333,13 +336,13 @@ section.main-status {
   flex-direction: column;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 15px;
   color: #01bba6;
   background-color: #e4fbf8;
   border-radius: 22px;
   width: 100%;
-  padding: 20px;
+  padding: 14px;
   flex-wrap: wrap;
   margin-bottom: 0;
   text-align: left;
@@ -347,12 +350,12 @@ section.main-status {
 }
 .ic-privacy {
   width: 18px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 .btn-browsing {
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 15px;
   color: #ffffff;
   margin-bottom: 0;
@@ -364,10 +367,12 @@ section.main-status {
   height: 60px;
   flex-wrap: wrap;
   white-space: normal;
+  justify-content: center;
+  padding: 14px;
 }
 .ic-browser {
   width: 18px;
-  margin-right: 12px;
+  margin-right: 8px;
 }
 section.ads {
   padding-left: 26px;
@@ -379,7 +384,7 @@ section.ads {
   border-radius: 4px;
 }
 .carousel-item img {
-  height: 180px;
+  height: 150px;
   object-fit: cover;
   border-radius: 4px;
 }
