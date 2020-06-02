@@ -451,5 +451,6 @@ section.ads {
     margin-top: calc(100vh - 360px);
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 0;
   }
 }
