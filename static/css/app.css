@@ -444,8 +444,6 @@ section.ads {
   text-align: center;
   color: #ffffff;
 }
-@media only screen and (max-width: 360px) {
-}
 @media only screen and (max-width: 600px) {
   .modal-dialog-sk {
     margin-top: calc(100vh - 340px);
@@ -472,6 +470,7 @@ section.ads {
   margin-bottom: 0;
   margin-top: calc(100vh - 480px);
 }
+
 .form-check {
   padding-left: 0;
 }
@@ -568,4 +567,184 @@ section.ads {
   mix-blend-mode: overlay;
   width: 15px;
   margin-right: 8px;
+}
+.wrapper-header-faq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.ic-faq-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #01bba6;
+  margin-right: 12px;
+}
+.ic-faq-wrapp i {
+  font-size: 20px;
+  color: #ffffff;
+}
+.faq-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 2px;
+  color: #000000;
+}
+.faq-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+.accordion {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.accordion .card {
+  border: 1px solid rgba(241, 241, 241, 0.5);
+}
+.accordion .card-header {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+.accordion .card:first-child {
+  border-radius: 12px 12px 0 0;
+}
+.accordion .card:last-child {
+  border-radius: 0 0 12px 12px;
+}
+.btn-acor {
+  height: 48px;
+  border-radius: 0;
+  padding-left: 50px;
+  background-color: #01bba6;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  transition: ease-in-out 0.2s;
+  position: relative;
+}
+
+.ic-faq-wrapp-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 14px;
+  top: 10px;
+  transition: ease-in-out 0.2s;
+}
+.ic-faq-wrapp-2 i {
+  font-size: 16px;
+  color: #01bba6;
+  transition: ease-in-out 0.2s;
+}
+.icon-plus {
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  transition: ease-in-out 0.2s;
+}
+
+.btn-acor:hover {
+  background-color: #01bba6;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-acor:hover .ic-faq-wrapp-2 {
+  background-color: #ffffff;
+}
+.btn-acor:hover .ic-faq-wrapp-2 i {
+  color: #01bba6;
+}
+.btn-acor:hover .icon-plus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-acor.collapsed .ic-faq-wrapp-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #01bba6;
+  position: absolute;
+  left: 14px;
+  top: 10px;
+  transition: ease-in-out 0.2s;
+}
+.btn-acor.collapsed .ic-faq-wrapp-2 i {
+  font-size: 16px;
+  color: #ffffff;
+  transition: ease-in-out 0.2s;
+}
+.btn-acor.collapsed .icon-plus {
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  transition: ease-in-out 0.2s;
+}
+.btn-acor.collapsed {
+  height: 48px;
+  border-radius: 0;
+  padding-left: 50px;
+  background-color: rgba(241, 241, 241, 0.5);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  transition: ease-in-out 0.2s;
+  position: relative;
+}
+.btn-acor.collapsed:hover {
+  background-color: #01bba6;
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn-acor:focus {
+  text-decoration: none;
+}
+.btn-acor.collapsed:hover .icon-plus {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-acor.collapsed:hover .ic-faq-wrapp-2 {
+  background-color: #ffffff;
+}
+.btn-acor.collapsed:hover .ic-faq-wrapp-2 i {
+  color: #01bba6;
+}
+.faq-body {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+  color: #000000;
+}
+.wp-faq {
+  min-height: 110vh;
 }
