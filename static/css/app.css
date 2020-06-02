@@ -444,7 +444,8 @@ section.ads {
   text-align: center;
   color: #ffffff;
 }
-
+@media only screen and (max-width: 360px) {
+}
 @media only screen and (max-width: 600px) {
   .modal-dialog-sk {
     margin-top: calc(100vh - 340px);
@@ -456,6 +457,14 @@ section.ads {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
+  }
+
+  .modal-body.wrapper-sk {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .wrapper-paket {
+    background-position: 120%;
   }
 }
 
@@ -482,7 +491,7 @@ section.ads {
   overflow: hidden;
   box-shadow: 0px 4px 24px rgba(174, 174, 174, 0.25);
   background-image: url("../images/img-paket.png");
-  background-position: right;
+  background-position: 120%;
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
