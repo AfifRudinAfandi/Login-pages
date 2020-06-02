@@ -624,9 +624,11 @@ section.ads {
   border-radius: 0 0 12px 12px;
 }
 .btn-acor {
-  height: 48px;
+  white-space: normal;
+  min-height: 48px;
   border-radius: 0;
   padding-left: 50px;
+  padding-right: 36px;
   background-color: #01bba6;
   font-style: normal;
   font-weight: 500;
@@ -648,7 +650,7 @@ section.ads {
   background-color: #ffffff;
   position: absolute;
   left: 14px;
-  top: 10px;
+  top: 9px;
   transition: ease-in-out 0.2s;
 }
 .ic-faq-wrapp-2 i {
@@ -692,7 +694,7 @@ section.ads {
   background-color: #01bba6;
   position: absolute;
   left: 14px;
-  top: 10px;
+  top: 9px;
   transition: ease-in-out 0.2s;
 }
 .btn-acor.collapsed .ic-faq-wrapp-2 i {
@@ -709,9 +711,11 @@ section.ads {
   transition: ease-in-out 0.2s;
 }
 .btn-acor.collapsed {
-  height: 48px;
+  white-space: normal;
+  min-height: 48px;
   border-radius: 0;
   padding-left: 50px;
+  padding-right: 36px;
   background-color: rgba(241, 241, 241, 0.5);
   font-style: normal;
   font-weight: 500;
