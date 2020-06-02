@@ -50,7 +50,7 @@
                     <p class="titel-item">Extra Time</p>
                 </div>
             </a>
-            <a class="item-link" href="#">
+            <a class="item-link" href="#" data-toggle="modal" data-target="#modal-vc">
                 <div class="item-menu">
                     <div class="icon-item">
                         <img class="icon-menu" src="../static/images/label-alt.svg">
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <!-- Modal -->
+    <!-- Modal-SK -->
     <div class="modal modal-sk  animate__animated animate__slideInUp animate__faster" id="exampleModal" tabindex="-1"
         role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-sk modal-dialog-scrollable">
@@ -130,6 +130,48 @@
                         <li class="item-sk">Voucher yang sudah dibeli tidak dapat ditukar atau dikembalikan</li>
                     </ol>
                     <button class="btn  close-sk" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-Voucher -->
+    <div class="modal modal-sk  animate__animated animate__slideInUp animate__faster" id="modal-vc" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-vc modal-dialog-scrollable">
+            <div class="modal-content modal-content-sk">
+                <div class="modal-body wrapper-sk">
+                    <span class="line-decor"></span>
+                    <h5 class="sk-title">Voucher Internet</h5>
+                    <form action="#">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="paket-1"
+                                value="option1">
+                            <label class="form-check-label" for="paket-1">
+                                <div class="wrapper-paket">
+                                    <p class="vc-title">Voucher Internet</p>
+                                    <p class="price">Rp. 5000,-</p>
+                                    <p class="time-duration"><img src="../static/images/time-alt.svg" class="ic-times">
+                                        24 Jam</p>
+                                    <img src="../static/images/check.svg" class="ic-check">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="paket-2"
+                                value="option1">
+                            <label class="form-check-label" for="paket-2">
+                                <div class="wrapper-paket bg-2">
+                                    <p class="vc-title-2">Voucher Internet</p>
+                                    <p class="price-2">Rp. 40.000,-</p>
+                                    <p class="time-duration-2"><img src="../static/images/time-alt.svg"
+                                            class="ic-times">
+                                        24 Jam</p>
+                                    <img src="../static/images/check.svg" class="ic-check">
+                                </div>
+                            </label>
+                        </div>
+                        <button class="btn close-sk">Beli Voucher</button>
+                    </form>
                 </div>
             </div>
         </div>
