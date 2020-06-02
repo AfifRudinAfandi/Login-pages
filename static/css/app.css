@@ -1,7 +1,7 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-body{
+body {
   max-width: 420px;
   margin: auto;
 }
@@ -387,4 +387,69 @@ section.ads {
   height: 150px;
   object-fit: cover;
   border-radius: 4px;
+}
+.sk-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.list-sk {
+  padding-left: 20px;
+  margin-bottom: 38px;
+}
+.list-sk .item-sk {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+.modal-body.wrapper-sk {
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 58px;
+  padding-bottom: 34px;
+  position: relative;
+}
+.line-decor {
+  width: 32px;
+  height: 5px;
+  background: #c4c4c4;
+  opacity: 0.35;
+  border-radius: 4px;
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 16px);
+}
+.modal-content-sk {
+  border-radius: 22px 22px 0 0;
+}
+.modal-dialog-sk {
+  margin-bottom: 0;
+  margin-top: calc(100vh - 360px);
+}
+.close-sk {
+  background: #01bba6;
+  border-radius: 4px;
+  height: 60px;
+  width: 90%;
+  margin: 0 5%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-dialog-sk {
+    margin-top: calc(100vh - 360px);
+    margin-right: 0;
+    margin-left: 0;
+  }
 }

@@ -13,7 +13,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css">
     <!-- Custom Css -->
-    <link href="../static/css/app.min.css" rel="stylesheet" />
+    <link href="../static/css/app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 </head>
 
 <body>
@@ -92,8 +93,8 @@
                 </div>
             </div>
             <div class="other-wrapp">
-                <a class="btn btn-privacy" href="#"><img class="ic-privacy"
-                        src="../static/images/briefcase-alt-1.svg">Privacy & Police</a>
+                <a class="btn btn-privacy" href="#" data-toggle="modal" data-target="#exampleModal"><img
+                        class="ic-privacy" src="../static/images/briefcase-alt-1.svg">Syarat & Ketentuan</a>
                 <a class="btn btn-browsing" href="#"><img class="ic-browser"
                         src="../static/images/browser.svg">Browshing</a>
             </div>
@@ -114,6 +115,25 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal modal-sk  animate__animated animate__slideInUp animate__faster" id="exampleModal" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sk modal-dialog-scrollable">
+            <div class="modal-content modal-content-sk">
+                <div class="modal-body wrapper-sk">
+                    <span class="line-decor"></span>
+                    <h5 class="sk-title">Syarat & Ketentuan</h5>
+                    <ol class="list-sk">
+                        <li class="item-sk">Voucher hanya berlaku untuk 1 Devices.</li>
+                        <li class="item-sk">Pengguna Mac Clone akan diblokir.</li>
+                        <li class="item-sk">Voucher yang sudah dibeli tidak dapat ditukar atau dikembalikan</li>
+                    </ol>
+                    <button class="btn  close-sk" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
