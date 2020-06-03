@@ -414,6 +414,18 @@ section.ads {
   padding-bottom: 34px;
   position: relative;
 }
+.arrow-up {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 24px;
+  color: #eaeaea;
+}
+.arrow-up:hover {
+  color: #d4d4d4;
+}
 .line-decor {
   width: 32px;
   height: 5px;
@@ -750,5 +762,31 @@ section.ads {
   color: #000000;
 }
 .wp-faq {
-  min-height: 110vh;
+  min-height: 100vh;
+}
+.remove-margin {
+  margin-top: 0 !important;
+}
+.add-height {
+  min-height: 100vh !important;
+}
+.remove-radius {
+  border-radius: 0 !important;
+}
+.btn-close-modal {
+  position: absolute;
+  top: 30px;
+  right: 24px;
+  color: #000000;
+  font-size: 24px;
+  display: none;
+}
+.btn-close-modal:hover {
+  color: #000000;
+}
+.add-button {
+  display: block !important;
+}
+.hide-btn {
+  display: none;
 }
