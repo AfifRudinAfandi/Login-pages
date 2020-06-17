@@ -20,8 +20,32 @@
     <section class="top-nev">
         <img class="ic-header" src="../static/images/category.svg">
         <img class="logo-header" src="../static/images/logo.png">
-        <img class="ic-header" src="../static/images/Notification.svg">
+        <div class="wrapper-notif" data-toggle="modal" data-target="#exampleModal">
+            <img class="ic-header" src="../static/images/Notification.svg">
+            <span class="badge badge-danger badge-notif">!</span>
+        </div>
     </section>
+    <!-- MODAL NOTIF -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="wrapper-extra-time">
+                        <img class="extra-time" src="../static/images/time-alt.svg">
+                        <p class="title-extra">Your connection will end at :</p>
+                        <p class="end-time">14h : 15m : 30s</p>
+                        <button class="btn btn-get-extra" data-dismiss="modal" data-toggle="modal"
+                            data-target="#modal-vc">Extra
+                            Time</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="account-information">
         <div class="wrapper-account">
             <div class="information">
